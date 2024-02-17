@@ -1,0 +1,34 @@
+body {
+background: #2D2E2E;
+background: radial-gradient(at center, #2D2E2E, #010101);
+color:snow;
+}
+
+h1,
+h2,
+h3{
+    font-family: "Shadows Into Light", cursive;
+    font-weight: 500;
+    font-style: normal;
+    word-wrap: break-word;
+}
+
+h4 {
+    font-family: "Zeyada", cursive;
+    font-weight: 400;
+    font-style: italic;
+    text-align-last: right;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.cont {
+    text-align: justify;
+    padding: 20px;
+    width: 50%;
+}
