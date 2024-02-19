@@ -9,7 +9,10 @@ async function getQuote(){
 }
 
 async function displayQuote() {
-    const {author = 'John Doe', quote} = await getQuote();
+    const {author, quote} = await getQuote();
+    if (author.length === 0) {
+        author = 'John Doe'
+    }
     quoteText.innerText = quote;
     authorSection.innerText =`- ${author}`;
 }
